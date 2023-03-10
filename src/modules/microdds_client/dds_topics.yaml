@@ -44,7 +44,13 @@ publications:
   - topic: /fmu/out/vehicle_trajectory_waypoint_desired
     type: px4_msgs::msg::VehicleTrajectoryWaypoint
 
+  - topic: /fmu/out/wheel_encoders
+    type: px4_msgs::msg::WheelEncoders
+
 subscriptions:
+
+  - topic: /fmu/in/manual_control_setpoint
+    type: px4_msgs::msg::ManualControlSetpoint
 
   - topic: /fmu/in/offboard_control_mode
     type: px4_msgs::msg::OffboardControlMode

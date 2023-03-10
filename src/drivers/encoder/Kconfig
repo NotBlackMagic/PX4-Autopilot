@@ -1,0 +1,5 @@
+menuconfig DRIVERS_ENCODER
+	bool "encoder"
+	default n
+	---help---
+		Enable motor encoder driver
